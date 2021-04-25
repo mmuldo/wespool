@@ -1,5 +1,8 @@
+import { Link } from 'react-router-dom'
+
 const Ride = ({ride}) => {
     return (
+        <Link to={`/ride/${ride.id}`} className="link">
         <div className="task">
           <h3>
             {ride.from} to {ride.to} on {ride.date} @ {ride.time}
@@ -11,6 +14,7 @@ const Ride = ({ride}) => {
             {ride.riders.length}/{ride.maxRiders} spots taken
           </p>
         </div>
+        </Link>
     )
 }
 
