@@ -1,24 +1,37 @@
-import logo from './logo.svg';
+import Rides from './components/Rides'
 
-function App() {
+const rides = [
+  {
+    id: 1,
+    organizer: 'Matt',
+    date: '10/10',
+    time: '10:30',
+    from: 'loc',
+    to: 'home',
+    means: 'car',
+    maxRiders: 4,
+    riders: ['sally', 'joe', 'mama'],
+  },
+  {
+    id: 2,
+    organizer: 'Joe',
+    date: '10/11',
+    time: '10:30',
+    from: 'loc',
+    to: 'home',
+    means: 'car',
+    maxRiders: 5,
+    riders: ['sally', 'joe', 'mama'],
+  },
+]
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container">
+      <Rides rides={rides}
+      />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
