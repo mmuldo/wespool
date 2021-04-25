@@ -3,124 +3,40 @@
     {
       "organizer": {
         "name": "Matt",
-        "email": "matt.muldowney@gmail.com"
+        "email": "mmuldowney@wesleyan.edu"
       },
-      "date": "djfiosmfdo",
-      "time": "jfdiosmfio",
-      "from": "sdjfmiosmfio",
-      "to": "dfmiodsmfo",
-      "means": "djfmiosdmfo",
+      "date": "04/25/2021",
+      "time": "05:00",
+      "from": "Campus",
+      "to": "Bradley",
+      "means": "Car",
       "maxRiders": "3",
       "riders": [
         {
           "name": "Matt",
-          "email": "matt.muldowney@gmail.com"
+          "email": "mmuldowney@wesleyan.edu"
         }
       ],
       "id": 1
     },
     {
       "organizer": {
-        "name": "Kev",
-        "email": "matt.muldowney@gmail.com"
+        "name": "Rando",
+        "email": "email@gmail.com"
       },
-      "date": "dfmisomf",
-      "time": "fdsaf",
-      "from": "fdsjfio",
-      "to": "jdfiods",
-      "means": "jfiodsjfojdios",
+      "date": "04/20/2021",
+      "time": "04:20",
+      "from": "Somewhere",
+      "to": "Elsewhere",
+      "means": "Uber",
       "maxRiders": "5",
       "riders": [
         {
-          "name": "Kev",
-          "email": "matt.muldowney@gmail.com"
+          "name": "Rando",
+          "email": "email@gmail.com"
         }
       ],
       "id": 2
-    },
-    {
-      "organizer": {
-        "name": "Matt",
-        "email": ""
-      },
-      "date": "fdmsiofmo",
-      "time": "fjdisojfiods",
-      "from": "dsfmiodsmfo",
-      "to": "djfios",
-      "means": "mfdio",
-      "maxRiders": "3",
-      "riders": [
-        {
-          "name": "Matt",
-          "email": ""
-        }
-      ],
-      "id": 3
-    },
-    {
-      "organizer": {
-        "name": "Kev Kev",
-        "email": ""
-      },
-      "date": "fdjsiof",
-      "time": "fjdisojfo",
-      "from": "jfdiosj",
-      "to": "ifodj",
-      "means": "iodsfjds",
-      "maxRiders": "2",
-      "riders": [
-        {
-          "name": "joe",
-          "email": "itz.kyrith@gmail.com"
-        },
-        {
-          "name": "Kev Kev",
-          "email": ""
-        }
-      ],
-      "id": 4
-    },
-    {
-      "organizer": {
-        "name": "hihihihi",
-        "email": "itz.kyrith@gmail.com"
-      },
-      "date": "jfdisjfodsjafoi",
-      "time": "fdsaf",
-      "from": "fdsafds",
-      "to": "fdsafdsa",
-      "means": "car",
-      "maxRiders": "10",
-      "riders": [
-        {
-          "name": "hihihihi",
-          "email": "itz.kyrith@gmail.com"
-        }
-      ],
-      "id": 5
-    },
-    {
-      "organizer": {
-        "name": "fjdisaofjdsa",
-        "email": "test@example.com"
-      },
-      "date": "fwqfewqf",
-      "time": "jfowj",
-      "from": "fo",
-      "to": "jfo",
-      "means": "jof",
-      "maxRiders": "5",
-      "riders": [
-        {
-          "name": "Matt",
-          "email": "matt.muldowney@gmail.com"
-        },
-        {
-          "name": "fjdisaofjdsa",
-          "email": "test@example.com"
-        }
-      ],
-      "id": 6
     }
   ]
 }
