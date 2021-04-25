@@ -1,70 +1,52 @@
-# Getting Started with Create React App
+# WesPool
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Tired of making desperate and often unfruitful WesAdmits posts when trying to
+coordinate a ride to/from Bradley Airport, Meriden train station, or anywhere
+else?
+Look no further than WesPool, a one-stop-shop for easily finding others who are
+headed to the same destination as you on the same day.
 
-## Available Scripts
+## Scripts
 
-In the project directory, you can run:
+Currently, the site doesn't have a domain, so it must be run on you localhost.
+To get it running:
+1. clone this repo
+2. install nodejs and npm
+3. run `npm install` to locally install dependencies (doesn't actually install
+   anything on your computer)
+3. run `npm start` to run the site on [http://localhost:3000](http://localhost:3000), viewable in a browser.
+4. run `npm run backend` to run the mock backend/database for this project (just
+serves up the json file `db.json` on [http://localhost:5000](http://localhost:5000/rides))
 
-### `npm start`
+## Organization
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Login
+To "login" to the site, simply enter an email address into the field and click "login".
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### My Rides
+This page displays rides you are currently a part of.
+You can click on a specific ride to view more details about it.
 
-### `npm test`
+### Find Ride
+This is where you can find rides that have been organized by others.
+If you see one that works for you, and it still has room, you can enter your
+name and click "join".
+After joining a ride, your information will be saved on that ride, even after
+you logout.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Schedule Ride
+Here, you can organize your own ride by filling out the details and clicking "schedule".
+Rides that you schedule here will be saved to the backend even after you logout.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Logout
+Takes you back to the login screen.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## TODO
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+ * login with google
+ * add filters to "Find Ride" so ppl can search by date, location, etc.
+ * improve overall look
+ * add functionality for leaving/deleting rides
+ * add calender, google maps address, and other fancy form inputs to "Schedule Ride"
+ 

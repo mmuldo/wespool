@@ -32,6 +32,10 @@
       "maxRiders": "5",
       "riders": [
         {
+          "name": "Matt Muldowney",
+          "email": "mmuldowney@wesleyan.edu"
+        },
+        {
           "name": "Rando",
           "email": "email@gmail.com"
         }
