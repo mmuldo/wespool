@@ -10,7 +10,7 @@ headed to the same destination as you on the same day.
 
 Currently, the site doesn't have a domain, so it must be run on you localhost.
 To get it running:
-1. clone this repo
+1. clone this repo (make sure you're on the `master` branch!!!)
 2. install nodejs and npm
 3. run `npm install` to locally install dependencies (doesn't actually install
    anything on your computer)
